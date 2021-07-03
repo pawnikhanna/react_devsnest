@@ -1,12 +1,8 @@
 const Data=({header, description})=>{
     return (
         <div className="data">
-            <h1 className="header">
-                {header}
-            </h1>
-            <h2 className="description">
-                you have consumed {description} cals today
-            </h2>
+            <h1> {header} </h1>
+            <h2> you have consumed {description} cals today </h2>
         </div>
     );
 }
