@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.app{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.heading h1{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.data{
+  width: 90%;
+  background: #6b8e23;
+  padding: 5px;
+  margin: 6px;
+  border-radius: 5px;
+  box-shadow: 3px 1px 9px -1px #3d581a;
+}
+
+.data h1{
+  padding: 15px 0px;
+}
+
+.data h2{
+  padding-bottom: 20px;
+}
+
+.card-container{
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow:  2px 3px 9px -1px #000;
+}
