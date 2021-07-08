@@ -1,0 +1,10 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.counter button{
+  display: block;
+  float: left;
+  padding: 3px 5px;
+}
